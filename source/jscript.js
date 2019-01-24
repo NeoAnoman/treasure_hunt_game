@@ -1,4 +1,5 @@
-var s=0;
+$(document).ready(function(){
+  var s=0;
 var w=0;
 var hscore=0;
 var music=document.querySelector('.background');
@@ -142,3 +143,4 @@ function func()
 }
 music.play();
 music.loop=true;
+});
